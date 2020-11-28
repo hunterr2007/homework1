@@ -1,0 +1,478 @@
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "c:\LearnPython\HomeWork\mybot\bot.py", line 29, in talk_to_me
+    user_text = update.message.text
+AttributeError: 'CallbackContext' object has no attribute 'message'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "c:\LearnPython\HomeWork\mybot\bot.py", line 14, in planets_input
+    day = date.today().split("-")
+AttributeError: 'datetime.date' object has no attribute 'split'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "c:\LearnPython\HomeWork\mybot\bot.py", line 33, in talk_to_me
+    user_text = update.message.text
+AttributeError: 'CallbackContext' object has no attribute 'message'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "c:\LearnPython\HomeWork\mybot\bot.py", line 14, in planets_input
+    day = date.today().split("-")
+AttributeError: 'datetime.date' object has no attribute 'split'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "c:\LearnPython\HomeWork\mybot\bot.py", line 22, in talk_to_me
+    user_text = update.message.text
+AttributeError: 'CallbackContext' object has no attribute 'message'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "c:\LearnPython\HomeWork\mybot\bot.py", line 13, in planets_input
+    planet_input = str(update.message.text.split()[1]).lower().capitalize()
+AttributeError: 'CallbackContext' object has no attribute 'message'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "c:\LearnPython\HomeWork\mybot\bot.py", line 23, in talk_to_me
+    user_text = update.message.text
+AttributeError: 'CallbackContext' object has no attribute 'message'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "c:\LearnPython\HomeWork\mybot\bot.py", line 14, in planets_input
+    planet_input = str(update.message.text.split()[1]).lower().capitalize()
+AttributeError: 'CallbackContext' object has no attribute 'message'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "c:\LearnPython\HomeWork\mybot\bot.py", line 23, in talk_to_me
+    user_text = update.message.text
+AttributeError: 'CallbackContext' object has no attribute 'message'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "c:\LearnPython\HomeWork\mybot\bot.py", line 23, in talk_to_me
+    user_text = update.message.text
+AttributeError: 'CallbackContext' object has no attribute 'message'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "c:\LearnPython\HomeWork\mybot\bot.py", line 14, in planets_input
+    planet_input = str(update.message.text.split()[1]).lower().capitalize()
+AttributeError: 'CallbackContext' object has no attribute 'message'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "c:\LearnPython\HomeWork\mybot\bot2.py", line 50, in talk_to_me
+    user_text = update.message.text
+AttributeError: 'CallbackContext' object has no attribute 'message'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "c:\LearnPython\HomeWork\mybot\bot2.py", line 24, in greet_user
+    update.message.reply_text(text)
+AttributeError: 'CallbackContext' object has no attribute 'message'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "c:\LearnPython\HomeWork\mybot\bot2.py", line 35, in get_constel
+    planet_input = str(update.message.text.split()[1]).lower().capitalize()
+AttributeError: 'CallbackContext' object has no attribute 'message'
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 419, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 373, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 2262, in get_updates
+    result = self._post('getUpdates', data, timeout=float(read_latency) + float(timeout),
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 184, in _post
+    return self.request.post('{}/{}'.format(self.base_url, endpoint), data=data,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 325, in post
+    result = self._request_wrapper('POST', url,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 254, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 419, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 373, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 2262, in get_updates
+    result = self._post('getUpdates', data, timeout=float(read_latency) + float(timeout),
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 184, in _post
+    return self.request.post('{}/{}'.format(self.base_url, endpoint), data=data,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 325, in post
+    result = self._request_wrapper('POST', url,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 254, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 419, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 373, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 2262, in get_updates
+    result = self._post('getUpdates', data, timeout=float(read_latency) + float(timeout),
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 184, in _post
+    return self.request.post('{}/{}'.format(self.base_url, endpoint), data=data,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 325, in post
+    result = self._request_wrapper('POST', url,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 254, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 419, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 373, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 2262, in get_updates
+    result = self._post('getUpdates', data, timeout=float(read_latency) + float(timeout),
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 184, in _post
+    return self.request.post('{}/{}'.format(self.base_url, endpoint), data=data,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 325, in post
+    result = self._request_wrapper('POST', url,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 254, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 419, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 373, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 2262, in get_updates
+    result = self._post('getUpdates', data, timeout=float(read_latency) + float(timeout),
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 184, in _post
+    return self.request.post('{}/{}'.format(self.base_url, endpoint), data=data,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 325, in post
+    result = self._request_wrapper('POST', url,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 254, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 419, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 373, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 2262, in get_updates
+    result = self._post('getUpdates', data, timeout=float(read_latency) + float(timeout),
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 184, in _post
+    return self.request.post('{}/{}'.format(self.base_url, endpoint), data=data,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 325, in post
+    result = self._request_wrapper('POST', url,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 254, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 419, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 373, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 2262, in get_updates
+    result = self._post('getUpdates', data, timeout=float(read_latency) + float(timeout),
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 184, in _post
+    return self.request.post('{}/{}'.format(self.base_url, endpoint), data=data,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 325, in post
+    result = self._request_wrapper('POST', url,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 254, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 419, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 373, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 2262, in get_updates
+    result = self._post('getUpdates', data, timeout=float(read_latency) + float(timeout),
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 184, in _post
+    return self.request.post('{}/{}'.format(self.base_url, endpoint), data=data,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 325, in post
+    result = self._request_wrapper('POST', url,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 254, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 419, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 373, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 2262, in get_updates
+    result = self._post('getUpdates', data, timeout=float(read_latency) + float(timeout),
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 184, in _post
+    return self.request.post('{}/{}'.format(self.base_url, endpoint), data=data,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 325, in post
+    result = self._request_wrapper('POST', url,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 254, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 419, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 373, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 2262, in get_updates
+    result = self._post('getUpdates', data, timeout=float(read_latency) + float(timeout),
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 184, in _post
+    return self.request.post('{}/{}'.format(self.base_url, endpoint), data=data,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 325, in post
+    result = self._request_wrapper('POST', url,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 254, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "c:\LearnPython\HomeWork\mybot\bot2.py", line 35, in get_constel
+    planet_input = str(update.message.text.split()[1]).lower().capitalize()
+AttributeError: 'CallbackContext' object has no attribute 'message'
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 419, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 373, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 2262, in get_updates
+    result = self._post('getUpdates', data, timeout=float(read_latency) + float(timeout),
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 184, in _post
+    return self.request.post('{}/{}'.format(self.base_url, endpoint), data=data,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 325, in post
+    result = self._request_wrapper('POST', url,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 254, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 419, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 373, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 2262, in get_updates
+    result = self._post('getUpdates', data, timeout=float(read_latency) + float(timeout),
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 184, in _post
+    return self.request.post('{}/{}'.format(self.base_url, endpoint), data=data,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 325, in post
+    result = self._request_wrapper('POST', url,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 254, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 419, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 373, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 2262, in get_updates
+    result = self._post('getUpdates', data, timeout=float(read_latency) + float(timeout),
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 184, in _post
+    return self.request.post('{}/{}'.format(self.base_url, endpoint), data=data,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 325, in post
+    result = self._request_wrapper('POST', url,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 254, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 419, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 373, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 2262, in get_updates
+    result = self._post('getUpdates', data, timeout=float(read_latency) + float(timeout),
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 184, in _post
+    return self.request.post('{}/{}'.format(self.base_url, endpoint), data=data,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 325, in post
+    result = self._request_wrapper('POST', url,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 254, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 419, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 373, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 2262, in get_updates
+    result = self._post('getUpdates', data, timeout=float(read_latency) + float(timeout),
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 184, in _post
+    return self.request.post('{}/{}'.format(self.base_url, endpoint), data=data,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 325, in post
+    result = self._request_wrapper('POST', url,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 254, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 419, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\updater.py", line 373, in polling_action_cb
+    updates = self.bot.get_updates(self.last_update_id,
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 2262, in get_updates
+    result = self._post('getUpdates', data, timeout=float(read_latency) + float(timeout),
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\bot.py", line 184, in _post
+    return self.request.post('{}/{}'.format(self.base_url, endpoint), data=data,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 325, in post
+    result = self._request_wrapper('POST', url,
+  File "C:\Users\ChmykhovSA.CKO\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\utils\request.py", line 254, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
